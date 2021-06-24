@@ -29,7 +29,8 @@ module.exports = {
           'document.copy',
           'document.delete',
           'document.transform',
-          'comment.add'
+          'comment.add',
+          'comment.resolve'
         ]
       }
     ],
@@ -57,6 +58,7 @@ Possible action to register on at the moment:
 - document.delete
 - document.transform
 - comment.add
+- comment.resolve
 
 {{< added-in release-2021-06 >}}
 A user can be mentioned in comment. [Comments mentioning]({{< ref "/enterprise/guides/watching-documents.md#comments-mentioning" >}})
